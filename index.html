@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+  <!-- stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Splitter | Tip calculator</title>
+
+</head>
+
+<body>
+  <h1 class="heading">SPLI<br>TTER</h1>
+
+  <div class="container-fluid calculator">
+    <div class="container-fluid bill">
+      <h2 class="zero-warning1">Enter bill amount</h2>
+      <h2 class="sub-heading">Bill</h2>
+      <div class="input-group">
+        <input id="bill-amount" class="bill-amount" type="number" name="bill" placeholder="0" maxlength="4">
+      </div>
+
+      <div class="tip-buttons">
+        <h2 class="sub-heading">Select Tip %</h2>
+        <div class="d-grid gap-2 col-4 d-lg-block tips">
+          <button id="5" class="btn btn-primary std-tips 5"   type="button" name="5">5%</button>
+          <button id="10" class="btn btn-primary std-tips 10"  type="button" name="10">10%</button>
+          <button id="15" class="btn btn-primary std-tips 15"  type="button" name="15">15%</button>
+          <button id="25" class="btn btn-primary std-tips 25"  type="button" name="25">25%</button>
+          <button id="50" class="btn btn-primary std-tips 50"  type="button" name="50">50%</button>
+          <input id="custom" class="btn custom" type="number"  name="button" placeholder="Custom">
+        </div>
+        <h2 class="zero-warning2">Can't be zero</h2>
+        <h2 class="sub-heading">Number of People</h2>
+        <div class="input-group">
+          <input id="people" class="people" type="number" name="people" placeholder="0">
+        </div>
+      </div>
+      </div>
+
+
+    <div class="container-fluid output">
+
+      <div class="tip-amount">
+        <h1 id="tip-amount" class="result-value">$0.00</h1>
+        <h6>Tip Amount</h6>
+        <h2 class="sub-heading">/ person</h2>
+      </div>
+
+
+      <div class="total">
+        <h1 id="total" class="result-value">$0.00</h1>
+        <h6>Total</h6>
+        <h2 class="sub-heading">/ person</h2>
+      </div>
+
+      <button id="cal-btn" class="btn btn-primary result" type="button" name="button">CALCULATE</button>
+      <button id="reset-btn" class="btn btn-primary result" type="button" name="button">RESET</button>
+
+    </div>
+</div>
+
+
+  <div class="attribution footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/shrikx" target="_blank">Shrikx</a> with 💚.
+  </div>
+</body>
+
+<!-- javascript -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="index.js" charset="utf-8"></script>
+
+</html>

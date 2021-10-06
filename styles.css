@@ -1,0 +1,196 @@
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: 'Space Mono', monospace;
+}
+
+.bill-amount {
+  width: 21rem;
+  border: none;
+  border-radius: 7px;
+  background-color: hsl(189, 41%, 97%);
+  font-size: 1.5rem;
+  color: hsl(183, 100%, 15%);
+  text-align: right;
+  background-image:url(images/icon-dollar.svg);
+  background-repeat: no-repeat;
+  background-position: 4%;
+  margin-bottom: 35px;
+}
+
+.bill-amount:focus {
+  outline-color: hsl(172, 67%, 45%);
+}
+
+.bill {
+  margin: 5px;
+  padding: 2rem 1.5rem;
+}
+
+.custom {
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  text-align: right;
+  width: 28%;
+  height: 35%;
+  border-radius: 4px;
+  border-style: none;
+  padding-right: 2;
+}
+
+.custom::placeholder {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(184, 14%, 56%);
+}
+
+.custom:focus {
+  border-radius: 4px;
+  border: 2px;
+  outline-color: hsl(172, 67%, 45%);
+}
+
+.calculator {
+  height: 24rem;
+  width: 50%;
+  background-color: #fff;
+  border-radius: 14px;
+  margin: 5% auto 3%;
+}
+
+.footer {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+h6 {
+  color: hsl(189, 41%, 97%);
+  font-size: 0.9rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 7% auto 0;
+  text-align: center;
+  color: hsl(183, 100%, 15%);
+  letter-spacing: 0.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.invalid {
+  border: 2px solid orange;
+}
+
+.output {
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 10px;
+  height: 20.3rem;
+  width: 18rem;
+  padding: 3rem 2rem 2rem;
+  position: absolute;
+  top: 260px;
+  left: 770px;
+}
+
+.people {
+  width: 21rem;
+  border: none;
+  border-radius: 7px;
+  background-color: hsl(189, 41%, 97%);
+  font-size: 1.5rem;
+  color: hsl(183, 100%, 15%);
+  text-align: right;
+  background-image:url(images/icon-person.svg);
+  background-repeat: no-repeat;
+  background-position: 4%;
+  margin-bottom: 25px;
+}
+
+.people:focus {
+  outline-color: hsl(172, 67%, 45%);
+}
+
+.result {
+  margin: 15px 0;
+  width: 14rem;
+  background-color: hsl(186, 14%, 43%);
+  border: none;
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+}
+
+.result:hover {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.result:focus {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.result-value {
+  float: right;
+  color: hsl(172, 67%, 45%);
+  font-weight: bold;
+}
+
+.std-tips {
+  background-color: hsl(183, 100%, 15%);
+  border: none;
+  color: hsl(185, 41%, 84%);
+  margin-bottom: 10px;
+  width: 28%;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.std-tips:hover {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.std-tips:focus {
+  outline: 0;
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+.sub-heading {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: hsl(184, 14%, 56%);
+}
+
+.tips {
+  height: 6.875rem;
+  width: 21.875rem;
+  padding: 0;
+  margin: 5px 0 25px;
+}
+
+.total {
+  margin-top: 3rem;
+}
+
+.zero-warning1 {
+  float: right;
+  margin-right: 20rem;
+  color: orange;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.zero-warning2 {
+  float: right;
+  margin-right: 20rem;
+  color: orange;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
